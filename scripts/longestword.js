@@ -7,8 +7,8 @@
   //console.log the function
 
 const str = ('the', 'longest', 'word', 'in', 'my', 'sentence')
-function longestWord(str) {
-  let words = str.split("")
+function longestWord (str) {
+  const words = str.split('')
   let longest = 0
   let long
 
@@ -21,4 +21,4 @@ function longestWord(str) {
   return long
 }
 
-console.log(str)
+console.log(longestWord(str))
