@@ -1,11 +1,11 @@
-function Bank(costumer, balance, amount, withdraw) {
+function Bank (costumer, balance, amount, withdraw) {
   this.costumer = costumer
   this.balance = balance
   this.amount = amount
   this.withdraw = withdraw
 
   this.currentcostumer = {
-    account: 0,
+    account: 0
   }
 
   this.printAccount = function () {
