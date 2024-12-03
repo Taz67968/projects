@@ -1,7 +1,7 @@
 function bankNotes (money) {
   const denominations = [10000, 5000, 2000, 1000, 500, 100]
   const results = {}
-  money >= 0
+  money = 0
   for (let i = 0; i < denominations.length; i++) {
     const xaf = denominations[i]
     if (money >= xaf) {
