@@ -1,16 +1,14 @@
-  //Declare sentence
+// Declare sentence
 
-  //create a function
+// create a function
 
-  //split the sentence
+// split the sentence
 
-  //intialise a variable that tracks the words individually
+// intialise a variable that tracks the words individually
 
-  //loop the individual words to iterate through the words
+// loop the individual words to iterate through the words
 
-  //return longestword
-
-  //console.log the function
+// console.log the function
 
 const str = (' the', 'longest', 'word', 'in', 'my', 'sentence')
 function longestWord (str) {
