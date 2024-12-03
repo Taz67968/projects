@@ -1,13 +1,19 @@
 //Declare sentence
+
 // create a function
+
 //split the sentence
+
 //intialise a variable that tracks the words individually
+
 //loop the individual words to iterate through the words
+
 //return longestword
+
 //console.log the function
 
-const str = ('the', 'longest', 'word', 'in', 'my', 'sentence');
-function longestWord(str) {
+const str = (' the', 'longest', 'word', 'in', 'my', 'sentence');
+function longestWord (str) {
   const words = str.split('')
   let longest = 0
   let long
